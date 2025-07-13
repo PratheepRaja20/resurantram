@@ -1,0 +1,68 @@
+/* Page Background */
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+/* Fixed Home Button */
+.nav-home-btn {
+  position: fixed !important;
+  top: 20px;
+  right: 30px;
+  font-weight: bold;
+  color: white !important;
+  text-transform: none;
+  z-index: 1000;
+}
+
+.nav-home-btn:hover {
+  color: #222 !important;
+}
+
+/* Paper Container */
+.register-container {
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  animation: fadeIn 0.5s ease-in-out;
+  background-color: white;
+}
+
+/* Title */
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #df0f24 !important;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  text-transform: none;
+}
+
+.submit-btn:hover {
+  background-color: #eb4d64 !important;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

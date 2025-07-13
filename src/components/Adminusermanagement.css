@@ -1,0 +1,70 @@
+.aum-container {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.aum-paper {
+  padding: 30px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.aum-heading {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.aum-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.aum-form .MuiTextField-root {
+  flex: 1 1 220px;
+}
+
+.aum-submit {
+  height: 56px;
+  align-self: center;
+}
+
+.aum-search {
+  margin-bottom: 25px;
+}
+
+.aum-table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.aum-table {
+  min-width: 100%;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.aum-edit-btn {
+  margin-right: 10px;
+  border-color: #ffc107 !important;
+  color: #333 !important;
+  background-color: #fff8dc !important;
+}
+
+.aum-edit-btn:hover {
+  background-color: #ffe599 !important;
+}
+
+@media (max-width: 768px) {
+  .aum-form {
+    flex-direction: column;
+  }
+
+  .aum-submit {
+    width: 100%;
+  }
+}

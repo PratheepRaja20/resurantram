@@ -1,0 +1,80 @@
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+/* Top-right buttons */
+.top-right-global {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-home {
+  font-weight: bold;
+  color: white !important;
+  background-color: #1976d2 !important;
+  text-transform: none;
+}
+
+.nav-home:hover {
+  background-color: #115293 !important;
+}
+
+/* Form container */
+.login-container {
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  background: white;
+  animation: slideUp 0.5s ease-in-out;
+}
+
+/* Heading */
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Error text */
+.error {
+  color: #d32f2f;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #1976d2 !important;
+  color: white !important;
+  font-size: 16px;
+  text-transform: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #115293 !important;
+}
+
+/* Animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,17 @@
+.admin-navbar {
+  background-color: #333 !important;
+  box-shadow: none !important;
+}
+
+.admin-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.admin-title {
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
